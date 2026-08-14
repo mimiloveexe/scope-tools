@@ -32,10 +32,6 @@ To see them:
 2. Click **Advanced**
 3. Under **Source**, check **Import**
 
-Note that `req.source` is only a valid HTTPQL field once at least one
-Source checkbox is enabled under Advanced options — that checkbox is what
-opts you into filtering/querying by source at all. Before that, a query
-like `req.source.eq:"import"` will be rejected as invalid.
 
 ## Installation
 
